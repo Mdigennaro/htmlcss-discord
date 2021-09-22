@@ -16,6 +16,10 @@ body{
   color: #23272a;
 }
 
+.gray{
+  background-color: lightgray;
+}
+
 .container{
   width: 90%;
   max-width: 1180px;
@@ -41,15 +45,15 @@ body{
   color: white;
 }
 
+.logo, header nav, .testo, .figura{
+  float: left;
+  }
+
 /*header*/
 header{
   height: 80px;
   background-color: #3161e0;
   line-height: 80px;
-}
-
-.logo, header nav{
-  float: left;
 }
 
 .logo{
@@ -103,4 +107,80 @@ header nav ul li a{
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 40px;
+}
+
+/*main*/
+.box{
+  height: 500px;
+  margin: 40px auto;
+}
+
+.testo, .figura{
+  width: 49%;
+  margin-top: 40px;
+}
+
+.figura img{
+  width: 100%;
+}
+
+.testo h2, main .testo p, h3{
+  width: 50%;
+  color: #23272a;
+  margin: 0 auto;
+}
+
+.testo h2{
+  font-size: 2.5vw;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+main .testo p{
+  font-size: 1.4vw;
+  line-height: normal;
+}
+
+
+.bottom{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.bottom .testo, .bottom .figura{
+  width: 100%;
+}
+
+.bottom .testo h2{
+  width: 100%;
+  font-size: 3.7vw;
+}
+
+.bottom .testo p{
+  width: 90%;
+}
+
+.bottom .figura{
+  margin-top: 0;
+}
+
+.bottom .figura img{
+  width: 90%;
+  margin: 0 auto;
+}
+
+h3{
+  font-size: 2.5vw;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.star{
+  width: 55%;
+}
+
+.bottom a{
+  background-color: #8ea1e2;
+  color: white;
 }
