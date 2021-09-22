@@ -47,7 +47,20 @@ body{
 
 .logo, header nav, .testo, .figura, .social, .prodotto, .compagnia, .risorse, .norme{
   float: left;
-  }
+}
+
+nav ul{
+  list-style: none;
+}
+
+.bottom a, footer .end a{
+  background-color: #8ea1e2;
+  color: white;
+}
+
+#accedi, #registrati{
+  float: right;
+}
 
 /*header*/
 header{
@@ -65,9 +78,6 @@ header nav{
   text-align: center;
 }
 
-nav ul{
-  list-style: none;
-}
 
 header nav ul li{
   display: inline-block;
@@ -78,10 +88,6 @@ header nav ul li a{
   text-decoration: none;
   color: white;
   font-size: 16px;
-}
-
-#accedi{
-  float: right;
 }
 
 /*jumbotron*/
@@ -180,11 +186,6 @@ h3{
   width: 55%;
 }
 
-.bottom a{
-  background-color: #8ea1e2;
-  color: white;
-}
-
 
 footer{
   height: 600px;
@@ -197,7 +198,7 @@ footer{
 }
 
 .prodotto,.compagnia, .risorse, .norme{
-  width: 20%;
+  width: 18%;
 }
 
 footer .container h2{
@@ -224,9 +225,16 @@ footer li:first-of-type{
 }
 
 footer li{
-  padding: 15px 0 0 99px;
+  padding: 15px 0 0 90px;
 }
 
 footer li{
   font-size: 1.1vw;
 }
+
+hr{
+  border: 3px solid;
+  background-color: #7289da;
+  margin: 30px auto;
+}
+
