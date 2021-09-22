@@ -45,7 +45,7 @@ body{
   color: white;
 }
 
-.logo, header nav, .testo, .figura{
+.logo, header nav, .testo, .figura, .social, .prodotto, .compagnia, .risorse, .norme{
   float: left;
   }
 
@@ -65,7 +65,7 @@ header nav{
   text-align: center;
 }
 
-header nav ul{
+nav ul{
   list-style: none;
 }
 
@@ -144,7 +144,7 @@ main .testo p{
 
 .bottom{
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .bottom .testo, .bottom .figura{
@@ -183,4 +183,50 @@ h3{
 .bottom a{
   background-color: #8ea1e2;
   color: white;
+}
+
+
+footer{
+  height: 600px;
+  background-color: #23272a;
+  padding: 60px;
+}
+
+.social{
+  width: 25%;
+}
+
+.prodotto,.compagnia, .risorse, .norme{
+  width: 20%;
+}
+
+footer .container h2{
+  color: #7289da;
+  font-size: 2.2vw;
+  margin-bottom: 20px;
+}
+
+.social img{
+  width: 1.5vw;
+}
+
+.social span, .social i, footer li{
+  color: white;
+}
+
+.social i{
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+footer li:first-of-type{
+  color: #7289da;
+}
+
+footer li{
+  padding: 15px 0 0 99px;
+}
+
+footer li{
+  font-size: 1.1vw;
 }
